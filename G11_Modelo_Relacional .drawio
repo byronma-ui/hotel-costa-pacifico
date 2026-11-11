@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="0frJqE6EFuO803RlYYvL">
-    <mxGraphModel dx="-264" dy="-338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-149" dy="-168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -779,6 +779,24 @@
         <mxCell id="18DAKOHKtDhIzyROGtFl-183" parent="18DAKOHKtDhIzyROGtFl-181" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="cargo varchar2(35) not null" vertex="1">
           <mxGeometry height="30" width="210" x="30" as="geometry">
             <mxRectangle height="30" width="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18DAKOHKtDhIzyROGtFl-184" edge="1" parent="1" source="18DAKOHKtDhIzyROGtFl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" target="18DAKOHKtDhIzyROGtFl-15">
+          <mxGeometry relative="1" x="0.36" as="geometry">
+            <mxPoint x="860" y="1300" as="sourcePoint" />
+            <mxPoint x="860" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18DAKOHKtDhIzyROGtFl-185" edge="1" parent="1" source="18DAKOHKtDhIzyROGtFl-2" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="18DAKOHKtDhIzyROGtFl-47" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1060" y="1170" as="sourcePoint" />
+            <mxPoint x="940" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18DAKOHKtDhIzyROGtFl-186" edge="1" parent="1" source="18DAKOHKtDhIzyROGtFl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="18DAKOHKtDhIzyROGtFl-18">
+          <mxGeometry relative="1" x="-0.4044" as="geometry">
+            <mxPoint x="860" y="1640" as="sourcePoint" />
+            <mxPoint x="860" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
